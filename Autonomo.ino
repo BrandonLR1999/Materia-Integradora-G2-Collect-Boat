@@ -142,7 +142,7 @@ void funcioninterior(int hcsr01a, int hcsr01b){
       izquierda180();
       if(contInterior==2){
         borde(hcsr01a, hcsr01b);
-        end;
+        exit(0);
       }
       else{
         delante();//inicio
